@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>body{
+        margin: 0px;
+        padding: 0px;   
+        /* background-image: repeating-linear-gradient(blue,pink,orange); */
+        background-color: red;
+           color: white;
+       }
+       .gerister{
+           width: 800px;
+           height:600px;
+           margin: 100px;   
+           padding: 10px;
+         justify-content:center;
+         /* text-align: center; */
+         align-items: center;
+       }form{
+           width: 500px;
+           /* height: 400px; */
+           margin-left: 350px;
+           margin-top: 20px;
+           /* margin-left: 20px; */
+           padding: 10px;
+           align-items: center;
+           /* text-align: center; */
+           justify-content: center;
+           box-shadow: 6px;
+           background-color:green;
+       }h1{
+           color:white;
+           background-color: black;
+       }.input{
+           
+           width:200px;
+           height: 30px;
+           border-radius: 30px;
+           /* border: 1px solid rgb(255, 255, 0); */
+          
+           box-shadow: 2px 3px 4px;
+       }.input1{
+           width: 400px;
+           height: 30px;
+           /* border: 2px solid red; */
+           border-radius: 30px;
+           box-shadow: 2px 3px 4px;
+       }.sel1{
+           width:200px;
+           height: 30px;
+           border-radius:30px;
+           /* border: 2 px solid pink; */
+           font-size: 26px;
+           font-weight:italic;
+           height: 30px;
+           box-shadow: 2px 3px 4px;
+           line-height: 30px;
+       }.sel{
+           width: 400px;
+           box-shadow: 2px 3px 4px;
+           height: 30px;
+           /* border: 2px solid red; */
+           border-radius: 30px;
+       }.radio{
+           text-align: center;
+           align-items: center;
+           box-shadow: 2px 3px 4px;
+           margin-left: 30px;
+           font-size: 29px;
+       }span{
+           color:rgba(0, 252, 0, 0.998);
+           font-size: 26px;
+       }
+       
+       
+       button{
+           width: 200px;
+           /* border: 2px solid red ; */
+           border-radius: 30px;
+           color:white;
+           height: 30px;
+           background-color: red;
+           box-shadow:2px 3px 4px;
+       }label{
+           /* font-size:26px; */
+           color:rgb(17, 255, 0);
+           font-family: arial;
+           font-style: italic;
+           box-shadow: 2px 3px 4px;
+       
+       }.input1:hover{
+           color: orange;
+           height:35px;
+       }.sel:hover{
+           color: orange;
+           height:35px;
+       }.sel1:hover{
+           color: orange;
+           height:35px;
+       }.input:hover{
+           height: 35px;
+           color:orange;
+          border: 2px dotted red;
+       } button:hover{
+           width: 200px;
+           
+           border-radius:30px;
+           color:white;
+           height:35px;
+           background-color: rgb(255, 0, 234);
+           box-shadow:2px 3px 4px;
+       }</style>
+</head>
+<body>
+    
+    <div class="gerister">
+        <!-- <h1>EVENT REGISTERATION FORM</h1> -->
+        <form action="">
+        <h1>EVENT REGISTERATION FORM</h1>
+    
+       <label for="">NAME:</label>
+       <!-- <div class="underline"></div> -->
+      <input type="text" class="input">
+      <!-- <small>First Name:</small> -->
+       
+      <input type="text" class="input">
+      <!-- <small>last Name:</small> -->
+      <br><br>
+      <label for="">company:</label>
+     <input type="text" class="input1"><br><br>
+     <label for="">Email: </label>
+    &nbsp;&nbsp; <input type="email" class="input1">
+     <br><br>
+     <label for="">phone:</label>
+     <select name="" id="" class="sel1">
+        <option value="">area code</option>
+        <option value="">+92</option>
+        <option value="">+00</option>
+        <option value="">+45</option>
+     </select> &nbsp; &nbsp;&nbsp;<input type="text" placeholder="phone number" class="sel1">
+     <br><br>
+     
+     <label for="">Subject:</label>
+    
+     <select name="" id="" class="sel"> 
+        <option value="" >choose option</option>
+      <option value="">CS</option>
+      <option value="">MATHS</option>
+      <option value="">PHYSICS</option>
+    </select>
+        
+    
+        <h2>Are you an exesting customer?</h2>
+      <input type="radio" name="gender" class="radio"><span>YES</span>
+      <input type="radio" name="gender" class="radio"><span>NO</span>
+      <br><br>
+     <button>REGISTER</button>
+    </form>
+    <a href="file.html" style="color:white; margin-left: 400px; padding: 10px;">Go back</a>
+
+    </div>
+    <!-- <a href="file.html" style="color:white; margin:400px;padding: 10px;margin-top:-700; ">Go back</a> -->
+</body>
+</html>
